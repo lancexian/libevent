@@ -16,3 +16,14 @@ libevent是一个轻量级的开源高性能网络库，第一次学习，记录
 libevent本身是一个典型的Reactor模型，理解Reactor模型是理解libevent的基石
 下载链接：http://monkey.org/~provos/libevent/
 
+4、Reactor模式学习
+	整个libevent本身就是一个Reactor，因此本节将专门对Reactor模式进行必要的介绍，并列出libevnet中的几个重要组件和Reactor的对应关系，在后面的章节中可能还会提到本节介绍的基本概念。
+
+	4.1 Reactor的事件处理机制
+		普通函数调用机制：
+			函数调用----->函数执行------>程序等待------>函数结果返回------->控制权返回给程序-------->程序继续处理
+		Reactor："反应堆"，是一种事件驱动机制，
+
+
+
+http://blog.csdn.net/sparkliang/article/details/4957744
